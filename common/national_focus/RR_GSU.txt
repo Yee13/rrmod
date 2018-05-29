@@ -1,0 +1,85 @@
+focus_tree = {
+	id = gsu_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = GSU
+		}
+	}
+
+	default = no
+
+#Political Branch
+
+focus = {
+	id = liebknecht_death
+	icon = GFX_goal_generic_support_communism
+	x = 4
+	y = 0
+	cost = 10
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = thalmann_leader
+	icon = GFX_goal_generic_support_communism
+	prerequisite = { focus = liebknecht_death }
+	mutually_exclusive = { focus = ruhle_leader }
+	mutually_exclusive = { focus = strasser_leader }
+	x = 4
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = ruhle_leader
+	icon = GFX_goal_generic_support_communism
+	prerequisite = { focus = liebknecht_death }
+	mutually_exclusive = { focus = thalmann_leader }
+	mutually_exclusive = { focus = strasser_leader }
+	x = 2
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}
+}
+
+focus = {
+	id = strasser_leader
+	icon = GFX_goal_generic_support_communism
+	prerequisite = { focus = liebknecht_death }
+	mutually_exclusive = { focus = ruhle_leader }
+	mutually_exclusive = { focus = thalmann_leader }
+	x = 6
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}
+}
+
+
+
+
+
+
+
+
+}
