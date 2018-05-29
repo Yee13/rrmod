@@ -1,0 +1,21 @@
+state={
+	id=777
+	name="STATE_777"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TUR
+		add_core_of = SOV
+		add_core_of = ARM
+	}
+
+	provinces={
+		652 789 4583 6991 7454 10403 10472 12376 
+	}
+	manpower=1130120
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

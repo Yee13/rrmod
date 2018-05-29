@@ -1,0 +1,22 @@
+state={
+	id=784
+	name="STATE_784"
+	state_category = city
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			11837 = {
+		 	naval_base = 10
+		}
+			11998 = {
+				naval_base = 2
+			}
+	}
+}
+	provinces={
+		883 6843 6939 6979 6980 9784 11837 11998
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

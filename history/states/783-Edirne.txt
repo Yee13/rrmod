@@ -1,0 +1,15 @@
+state={
+	id=783
+	name="STATE_783"
+	state_category = large_city
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = GRE
+	}
+	provinces={
+		849 922 3879 3893 6895 11842
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

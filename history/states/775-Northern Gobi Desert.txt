@@ -1,0 +1,17 @@
+state={
+	id=775
+	name="STATE_775"
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MON
+	}
+	provinces={
+		1723 1781 1787 1853 4786 4856 4873 7806 7864 10558 10560 10575 10632 10689 12539 12541 12612 12669 
+	}
+	manpower=52000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

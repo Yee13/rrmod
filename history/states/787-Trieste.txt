@@ -1,0 +1,15 @@
+state={
+	id=787
+	name="STATE_787"
+	state_category = city
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_claim_by = YUG
+	}
+	provinces={
+		6626
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

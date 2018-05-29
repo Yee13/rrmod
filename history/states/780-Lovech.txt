@@ -1,0 +1,22 @@
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		3796 3819 3952 6814 6842 6952 6982 9610 
+	}
+	manpower=729100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+}

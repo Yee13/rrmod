@@ -1,0 +1,21 @@
+state={
+	id=774
+	name="STATE_774"
+	history={
+		owner = CST
+		add_core_of = SHX
+		add_core_of = CST
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+	provinces={
+		7048 7158 7631 10424 12403 
+	}
+	manpower=752041
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}
