@@ -1,0 +1,14 @@
+state={
+	id=790
+	name="STATE_790"
+	state_category = city
+	history = {
+		owner = SWI
+		add_core_of = SWI
+	}
+		provinces={
+			658 3641 3662 9600
+		}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
